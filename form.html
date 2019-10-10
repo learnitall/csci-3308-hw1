@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add New Article</h1>
+      <form>
+        <div class="form-group">
+          <label for="inputArticleTitle">Article Title</label>
+          <input type="text" class="form-control" id="inputArticleTitle">
+        </div>
+        <div class="form-group">
+          <label for="inputArticleAuthor">Article Author</label>
+          <input type="text" class="form-control" id="inputArticleAuthor">
+        </div>
+        <div class="form-group row">
+          <div class="col">
+            <label for="fileUpload">Upload Files:</label>
+            <br>
+            <input type="file" id="uploadedFile" name="filename">
+          </div>
+          <div class="col">
+            <label for="pageSelect">Pages</label>
+            <select class="custom-select">
+              <option value="Academics" selected>Academics</option>
+              <option value="Poems">Poems</option>
+              <option value="Rant">Rant</option>
+              <option value="Review">Review</option>
+              <option value="Tutorial">Tutorial</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputArticleText">Article Text</label>
+          <textarea class="form-control" id="inputArticleText" rows="8"></textarea>
+        </div>
+        <div class="form-group row">
+          <div class="col">
+            <label for="formTags">Select Tags</label>
+            <br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="pythonCheckbox" value="python">
+              <label class="form-check-label" for="pythonCheckbox">Python</label>
+            </div> 
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="cPlusPlusCheckbox" value="cPlusPlus">
+              <label class="form-check-label" for="cPlusPlusCheckbox">C++</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="cCheckbox" value="c">
+              <label class="form-check-label" for="cCheckbox">C</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="javaCheckbox" value="java">
+              <label class="form-check-label" for="javaCheckbox">Java</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="scalaCheckbox" value="scala">
+              <label class="form-check-label" for="scalaCheckbox">Scala</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="perlCheckbox" value="perl">
+              <label class="form-check-label" for="perlCheckbox">Perl</label>
+            </div>
+          </div>
+          <div class="col">
+            <label for="visibilitySet">Visibility</label>
+            <br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" id="publicRadio" name="visibilityRadios" value="public">
+              <label class="form-check-label" for="publicRadio">Public</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" id="privateRadio" name="visibilityRadios" value="private">
+              <label class="form-check-label" for="privateRadio">Private</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="userLogin">Login to Finish Submitting</label>
+          <div class="row">
+            <div class="col">
+              <input class="form-control" id="inputUsername" type="text" placeholder="Username">
+            </div>
+            <div class="col">
+              <input class="form-control" id="inputPassword" type="password" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="rememberMeCheckbox" value="rememberMe">
+            <label class="form-check-label" for="rememberMeCheckbox">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

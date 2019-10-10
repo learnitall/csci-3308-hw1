@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>About Me</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Drew, Ryan
+        <small class="text-muted">- Software Development Methods and Tools</small>
+      </h1>
+      <div class="card bg-light">
+        <div class="card-body">
+        <p>I am studying Computer Science because I want to build awesomely-intricate systems that can be used for productive work. Three interesting facts about myself are:</p>
+        <ul>
+          <li>I have a pet lizard.</li>
+          <li>I used to play baseball.</li>
+          <li>I played a painter's son in a rendition of La Boheme.</li>
+        </ul>
+        </div>
+      </div>
+      <h2>My Professional Profile</h2>
+      <button type="button" class="btn btn-outline-dark"><a href="https://github.com/learnitall">My GitHub Profile</a></button>
+      <br>
+      <img class="rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Icon-Vim.svg/256px-Icon-Vim.svg.png" alt="500x700 Sized Vim Logo" width=500 height=700>
+      <br>
+      <h3>My Favorite Projects</h3>
+      <table class="table">
+        <tr>
+          <th scope="col">Name of the Project</th>
+          <th scope="col">Technologies Used</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/learnitall/duckpy">duckpy</a></td>
+          <td>Python, Read the Docs</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/learnitall/falling-objects">Falling Objects PhET Simulation</a></td>
+          <td>PhET Libraries, Javascript, RequireJS, NodeJS, TravisCI</td>
+        </tr>
+        <tr>
+          <td>Home Development Lab (Private Cloud)</td>
+          <td>Canonical's MAAS and JuJu, Openstack, KVM, OpenLDAP, Krb5, CentOS, Ubuntu, PfSense</td>
+        </tr>
+      </table>
+      <div class="row">
+        <div class="col">
+          <div class="card" id="countriesTravelledToggle">
+            <div class="card-header" id="countriesTravelledHeader">
+              <h3>
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#countriesTravelledCollapse" aria-expanded="false" aria-controls="countriesTravelledCollapse">Countries Travelled</button>
+              </h3>
+            </div>
+          </div>
+          <div id="countriesTravelledCollapse" class="collapse" aria-labelledby="countriesTravelledHeader">
+            <div class="card-body">
+              <ul>
+                <li>United States of America</li>
+                <li>Canada</li>
+                <li>England</li>
+                <li>Uganda</li>
+                <li>Rwanda</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" id="interestsToggle">
+            <div class="card-header" id="interestsHeader">
+              <h3>
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#interestsCollapse" aria-expanded="false" aria-controls="interestsCollapse">Interests</button>
+              </h3>
+            </div>
+          </div>
+          <div id="interestsCollapse" class="collapse" aria-labelledby="interestsHeader">
+            <div class="card-body">
+              <ol>
+                <li>Rock Climbing</li>
+                <li>Self-Care</li>
+                <li>Cooking</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Click Me!
+      </button>
+      <br>
+      <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="myModalLabel">Hello! This is a modal!</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              And this is the body of the modal!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
